@@ -1,4 +1,4 @@
-package Hello;
+package org.hello;
 
 public class Hello {
 
@@ -7,8 +7,9 @@ public class Hello {
     public String sayHello(String who){
 
         String sentence;
+        String statusCheck = "";
 
-        if(who != ""){
+        if(!who.equals(statusCheck)){
 
             sentence = "Hello " + who;
         }else{
